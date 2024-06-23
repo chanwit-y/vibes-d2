@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "daisyui"; */
+/* @import "flowbite"; */
+
+/* Transition สำหรับ background และ color */
+:global(html) {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+:global(html.dark) {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
