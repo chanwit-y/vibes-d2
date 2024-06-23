@@ -3,4 +3,4 @@
 
 </script>
 
-<Icon src="../../asset/beer-svgrepo-com.svg" />
+<Icon src="../../asset/home.svg" />

@@ -7,7 +7,7 @@
   <ul class="menu bg-base-100 rounded-box">
     <li>
       <a>
-        <!-- <Home /> -->
+        <Home />
         <p class="pl-1">Home</p>
       </a>
     </li>
