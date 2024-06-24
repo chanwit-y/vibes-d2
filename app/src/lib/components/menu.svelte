@@ -1,6 +1,7 @@
 <script>
   import Home from "./icon/home.svelte";
   import ObjectConnection from "./icon/object-connection.svelte";
+  import Insights from "./icon/insights.svelte";
 
 </script>
 <div class=" p-2 pt-4 h-4/5 w-80 text-base-content">
@@ -12,9 +13,15 @@
       </a>
     </li>
     <li>
-      <a class="active">
+      <a >
         <ObjectConnection />
         <p class="pl-1">ER-Model</p>
+      </a>
+    </li>
+    <li>
+      <a class="active" href="/monitor">
+        <Insights />
+        <p class="pl-1">Monitor</p>
       </a>
     </li>
     <li>

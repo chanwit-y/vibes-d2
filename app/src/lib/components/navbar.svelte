@@ -1,8 +1,8 @@
 <script>
   import { blur } from "svelte/transition";
-  import { backOut, quintOut } from "svelte/easing";
   import { onDestroy } from "svelte";
   import { drawerOpen } from "$lib/store";
+  import profile from "../asset/profile.png";
   import Hamberger from "./hamberger.svelte";
   import DarkToggle from "./dark-toggle.svelte";
 
@@ -73,8 +73,8 @@
     <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
       <div class="w-10 rounded-full">
         <img
-          alt="Tailwind CSS Navbar component"
-          src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+          alt="CY"
+          src={profile}
         />
       </div>
     </div>
