@@ -1,5 +1,5 @@
 // src/routes/[...slugs]/+server.ts
-import { appInsQuery } from '$lib/api/app-insight/+server';
+import { appInsQuery } from '$lib/server/api/app-insight/+server';
 import { Elysia, t } from 'elysia';
 
 const app = new Elysia({prefix: '/api/user'})

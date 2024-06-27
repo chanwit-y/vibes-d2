@@ -10,7 +10,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"moduleResolution": "bundler",
-		"types": [],
+		"types": ["bun-types", "jest"],
 		"baseUrl": ".",
 		"paths": {
 			"$lib/*": ["src/lib/*"],
