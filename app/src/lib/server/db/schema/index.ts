@@ -35,7 +35,7 @@ export const cities = sqliteTable("cities", {
 });
 
 export const appInsights = sqliteTable("app_insights", {
-  id: integer("id").primaryKey(),
+  id: integer("id").primaryKey({ autoIncrement: true }),
   name: text("name"),
   appId: text("app_id"),
   appKey: text("app_key"),
